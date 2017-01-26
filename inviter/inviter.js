@@ -1,6 +1,6 @@
-const config = require('./config');
-const rp = require('request-promise');
-const mongoose = require('mongoose');
+import config from './config';
+import rp from 'request-promise';
+import mongoose from 'mongoose';
 
 // Setup database
 mongoose.connect(config.mongoURL);
