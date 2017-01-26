@@ -1,0 +1,127 @@
+@import './mixins';
+
+// .header-container {
+//   border-bottom: 1px solid #cacaca;
+//   height: 9vh;
+// }
+//
+// .header {
+//   overflow: auto;
+//   padding: 10px 4px;
+//
+//   .brand {
+//     color: black;
+//
+//     &:hover {
+//       text-decoration: none;
+//     }
+//
+//     .logo {
+//       width: 46px;
+//     }
+//
+//     .brand-name {
+//       margin-left: 2px;
+//       font-size: 20px;
+//       vertical-align: middle;
+//       letter-spacing: 1.4px;
+//       color: black;
+//     }
+//   }
+//
+//   .parent-brand {
+//     margin-top: 12px;
+//     float: right;
+//     color: #5d5d5d;
+//     font-size: 15px;
+//
+//     @include mobile-md {
+//       display: none;
+//     }
+//     @include mobile-sm {
+//       display: none;
+//     }
+//   }
+// }
+
+.main-hero {
+  height: 100vh;
+  text-align: center;
+  padding-top: 121px;
+  background-size: cover;
+  color: white;
+
+  @include laptop-sm {
+    padding-top: 73px;
+  }
+  @include tablet {
+    padding-top: 53px;
+  }
+  @include mobile {
+    padding-top: 38px;
+  }
+
+  .brand {
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    .logo {
+      width: 224px;
+
+      @include laptop-sm {
+        width: 195px;
+      }
+    }
+
+    .brand-name {
+      font-size: 27px;
+      vertical-align: middle;
+      letter-spacing: 1.4px;
+      color: white;
+
+      @include mobile {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .cta {
+    font-size: 41px;
+    padding: 22px 0 0;
+    margin-bottom: 0;
+
+    @include laptop-sm {
+      font-size: 38px;
+    }
+
+    @include tablet {
+      font-size: 32px;
+    }
+
+    @include mobile {
+      font-size: 27px;
+    }
+  }
+
+  .desc {
+    font-size: 20px;
+    color: #3e3e3e;
+
+    @include mobile {
+      font-size: 17px;
+    }
+  }
+
+  .action {
+    margin-top: 26px;
+  }
+
+  .parent-brand-info {
+    width: 100%;
+    margin-top: 110px;
+    color: white;
+  }
+}

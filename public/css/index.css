@@ -1,0 +1,34 @@
+.header-container {
+  border-bottom: 1px solid #cacaca; }
+
+.header {
+  overflow: auto;
+  padding: 10px 4px; }
+  .header .brand {
+    color: black; }
+    .header .brand:hover {
+      text-decoration: none; }
+    .header .brand .logo {
+      width: 46px; }
+    .header .brand .brand-name {
+      margin-left: 2px;
+      font-size: 20px;
+      vertical-align: middle;
+      letter-spacing: 1.4px;
+      color: black; }
+  .header .parent-brand {
+    margin-top: 12px;
+    float: right;
+    color: #5d5d5d;
+    font-size: 15px; }
+
+.main-hero {
+  height: 90vh;
+  text-align: center;
+  padding-top: 188px; }
+  .main-hero .cta {
+    font-size: 41px;
+    padding-bottom: 15px; }
+  .main-hero .desc {
+    font-size: 20px;
+    color: #3e3e3e; }

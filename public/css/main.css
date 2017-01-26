@@ -1,0 +1,57 @@
+.main-hero {
+  height: 100vh;
+  text-align: center;
+  padding-top: 121px;
+  background-size: cover;
+  color: white; }
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .main-hero {
+      padding-top: 73px; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .main-hero {
+      padding-top: 53px; } }
+  @media (max-width: 425px) {
+    .main-hero {
+      padding-top: 38px; } }
+  .main-hero .brand {
+    color: white; }
+    .main-hero .brand:hover {
+      text-decoration: none; }
+    .main-hero .brand .logo {
+      width: 224px; }
+      @media (min-width: 1024px) and (max-width: 1439px) {
+        .main-hero .brand .logo {
+          width: 195px; } }
+    .main-hero .brand .brand-name {
+      font-size: 27px;
+      vertical-align: middle;
+      letter-spacing: 1.4px;
+      color: white; }
+      @media (max-width: 425px) {
+        .main-hero .brand .brand-name {
+          font-size: 24px; } }
+  .main-hero .cta {
+    font-size: 41px;
+    padding: 22px 0 0;
+    margin-bottom: 0; }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+      .main-hero .cta {
+        font-size: 38px; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .main-hero .cta {
+        font-size: 32px; } }
+    @media (max-width: 425px) {
+      .main-hero .cta {
+        font-size: 27px; } }
+  .main-hero .desc {
+    font-size: 20px;
+    color: #3e3e3e; }
+    @media (max-width: 425px) {
+      .main-hero .desc {
+        font-size: 17px; } }
+  .main-hero .action {
+    margin-top: 26px; }
+  .main-hero .parent-brand-info {
+    width: 100%;
+    margin-top: 110px;
+    color: white; }
