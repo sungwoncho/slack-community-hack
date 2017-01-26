@@ -47,6 +47,9 @@ function maybeSendSlackInvitation(email) {
           .then(() => {
             const invitation = new Invitation({ email, sentAt: new Date() });
             return invitation.save();
+          })
+          .catch(err => {
+            console.log('error sending invitation', err);
           });
       }
 
