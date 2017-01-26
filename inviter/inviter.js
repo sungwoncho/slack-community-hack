@@ -2,8 +2,8 @@ const config = require('./config');
 const rp = require('request-promise');
 const mongoose = require('mongoose');
 
+// Setup database
 mongoose.connect(config.mongoURL);
-
 const Invitation = mongoose.model('Invitation', { email: String, sentAt: Date });
 
 // Constants
